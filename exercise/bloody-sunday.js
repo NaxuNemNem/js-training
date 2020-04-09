@@ -5,7 +5,7 @@
 
 You were missioned to make the world more productive.
 Your solution ? no more sundays,
-you are ask to remove them from the existing calendar.
+you are asked to remove them from the existing calendar.
 
 So now, a week is 6 days from monday to saturday.
 
@@ -18,10 +18,10 @@ that return what week day the given date is.
 
 // /*/ // ⚡
 export const tests = []
-const t = (f) => tests.push(f)
+const t = f => tests.push(f)
 
 t(() => bloodySunday(new Date('0001-01-01')) === 'Monday')
-t(() => bloodySunday(new Date('0001-01-02')) === 'Thuesday')
+t(() => bloodySunday(new Date('0001-01-02')) === 'Tuesday')
 t(() => bloodySunday(new Date('0001-01-03')) === 'Wednesday')
 t(() => bloodySunday(new Date('0001-01-04')) === 'Thursday')
 t(() => bloodySunday(new Date('0001-01-05')) === 'Friday')
