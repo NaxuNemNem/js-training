@@ -7,7 +7,7 @@ function multiply(x, y) {
   return 0
 }
 
-const divide = function(dividend, divisor) {
+const divide = function (dividend, divisor) {
   if (divisor === 0) {
     return Number.MAX_VALUE
   }

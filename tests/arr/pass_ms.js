@@ -1,1 +1,1 @@
-const arr = [4,'2']
+const arr = [4, '2']

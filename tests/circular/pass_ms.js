@@ -1,5 +1,5 @@
 let circular = {
-    get circular(){
-        return this
-    }
- }
+  get circular() {
+    return this
+  },
+}

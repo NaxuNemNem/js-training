@@ -3,8 +3,8 @@ const nested = {
   obj: {
     str: '',
     num: 0,
-    bool: false
-  }
+    bool: false,
+  },
 }
 Object.freeze(nested)
 Object.freeze(nested.obj)

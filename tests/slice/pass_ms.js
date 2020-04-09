@@ -20,6 +20,6 @@ function slice(array, begin, end = array.length) {
   if (typeof array == 'string') {
     return res
   } else {
-    return res.split('').map(x => parseInt(x))
+    return res.split('').map((x) => parseInt(x))
   }
 }

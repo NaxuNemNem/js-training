@@ -1,5 +1,5 @@
 const get = (obj, path) => {
-  let paths = path.split(".")
+  let paths = path.split('.')
   let current = obj
 
   for (let i = 0; i < paths.length; ++i) {

@@ -1,5 +1,5 @@
 const repeat = (str, n) => {
-  let res = ""
+  let res = ''
   while (n > 0) {
     res += str
     n--

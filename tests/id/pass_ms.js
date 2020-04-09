@@ -1,1 +1,3 @@
-function id(x) {return x}
+function id(x) {
+  return x
+}

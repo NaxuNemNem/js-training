@@ -1,4 +1,4 @@
-const floor = nbr => {
+const floor = (nbr) => {
   if (nbr % 1 == 0) {
     return nbr
   } else if (nbr < 0) {
@@ -8,7 +8,7 @@ const floor = nbr => {
   }
 }
 
-const trunc = nbr => {
+const trunc = (nbr) => {
   if (nbr % 1 === 0) {
     return nbr
   } else {
@@ -16,11 +16,11 @@ const trunc = nbr => {
   }
 }
 
-const ceil = nbr => {
+const ceil = (nbr) => {
   return trunc(nbr + (nbr > 0))
 }
 
-const round = nbr => {
+const round = (nbr) => {
   if (nbr % 1 == 0) {
     return nbr
   } else if (nbr >= 0 && nbr % 1 >= 0.5) {
