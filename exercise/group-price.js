@@ -12,7 +12,7 @@ Example:
 Expected output:
   [["USD12.31","12","31"]]
 
-  // /*/ // ⚡
+// /*/ // ⚡
 
 // /*/ // ⚡
 export const tests = []
